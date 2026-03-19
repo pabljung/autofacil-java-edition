@@ -1,0 +1,112 @@
+[
+  {
+    "idAluguel": 1,
+    "veiculo": {
+      "placa": "ABC-1234",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "cor": "Branco",
+      "precoDiaria": 80.0,
+      "status": "Disponível"
+    },
+    "cliente": {
+      "cpf": "456.789.123-00",
+      "nome": "Pedro Oliveira",
+      "telefone": "(11) 77777-3333",
+      "email": "pedro.oliveira@email.com"
+    },
+    "dataSaida": "19/06/2025",
+    "dataPrevistaDevolucao": "24/06/2025",
+    "valorTotal": 0.0,
+    "statusAluguel": "Ativo"
+  },
+  {
+    "idAluguel": 2,
+    "veiculo": {
+      "placa": "DEF-5678",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2019,
+      "cor": "Preto",
+      "precoDiaria": 75.0,
+      "status": "Disponível"
+    },
+    "cliente": {
+      "cpf": "123.456.789-00",
+      "nome": "João Silva",
+      "telefone": "(11) 99999-1111",
+      "email": "joao.silva@email.com"
+    },
+    "dataSaida": "19/06/2025",
+    "dataPrevistaDevolucao": "21/06/2025",
+    "valorTotal": 0.0,
+    "statusAluguel": "Ativo"
+  },
+  {
+    "idAluguel": 3,
+    "veiculo": {
+      "placa": "JKL-3456",
+      "marca": "Volkswagen",
+      "modelo": "Hb20",
+      "ano": 2011,
+      "cor": "Amarelo",
+      "precoDiaria": 1820.0,
+      "status": "Disponível"
+    },
+    "cliente": {
+      "cpf": "149.780.377-20",
+      "nome": "Rafael Dias",
+      "telefone": "(70) 93606-7461",
+      "email": "juliana@email.com"
+    },
+    "dataSaida": "19/06/2025",
+    "dataPrevistaDevolucao": "23/06/2025",
+    "valorTotal": 0.0,
+    "statusAluguel": "Ativo"
+  },
+  {
+    "idAluguel": 4,
+    "veiculo": {
+      "placa": "ABC-1234",
+      "marca": "Fiat",
+      "modelo": "Jetta",
+      "ano": 2003,
+      "cor": "Azul",
+      "precoDiaria": 1660.0,
+      "status": "Disponível"
+    },
+    "cliente": {
+      "cpf": "149.780.377-20",
+      "nome": "Rafael Dias",
+      "telefone": "(70) 93606-7461",
+      "email": "juliana@email.com"
+    },
+    "dataSaida": "19/06/2025",
+    "dataPrevistaDevolucao": "21/06/2025",
+    "valorTotal": 0.0,
+    "statusAluguel": "Ativo"
+  },
+  {
+    "idAluguel": 5,
+    "veiculo": {
+      "placa": "ABC-1234",
+      "marca": "Fiat",
+      "modelo": "Uno",
+      "ano": 2010,
+      "cor": "Cinza",
+      "precoDiaria": 86.0,
+      "status": "Disponível"
+    },
+    "cliente": {
+      "cpf": "456.789.123-00",
+      "nome": "Pedro Oliveira",
+      "telefone": "(11) 77777-3333",
+      "email": "pedro.oliveira@email.com"
+    },
+    "dataSaida": "19/06/2025",
+    "dataPrevistaDevolucao": "22/06/2025",
+    "valorTotal": 0.0,
+    "statusAluguel": "Ativo"
+  }
+]

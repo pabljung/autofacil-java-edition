@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>RELATORIO.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+RELATORIO.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">Relatório do Projeto AutoFácil Java Edition</span>
+
+<span class="s0">## </span><span class="s2">Introdução</span>
+
+<span class="s2">Este relatório documenta o desenvolvimento do sistema de locadora de veículos </span><span class="s1">&quot;</span><span class="s2">AutoFácil Java Edition</span><span class="s1">&quot;</span><span class="s2">, um projeto educacional voltado para alunos dos semestres iniciais de Engenharia de Software e Engenharia da Computação. O sistema foi desenvolvido utilizando conceitos de programação orientada a objetos em Java, interfaces gráficas com Swing e persistência de dados em arquivos JSON.</span>
+
+<span class="s0">## </span><span class="s2">Objetivos do Projeto</span>
+
+<span class="s2">O objetivo principal foi criar um sistema desktop simplificado para gerenciar as operações básicas de uma locadora de veículos, incluindo</span><span class="s1">:</span>
+
+<span class="s0">- </span><span class="s2">Gerenciamento de veículos </span><span class="s1">(</span><span class="s2">cadastro, listagem, busca, atualização e remoção</span><span class="s1">)</span>
+<span class="s0">- </span><span class="s2">Gerenciamento de clientes </span><span class="s1">(</span><span class="s2">cadastro, listagem e busca</span><span class="s1">)</span>
+<span class="s0">- </span><span class="s2">Gerenciamento de aluguéis </span><span class="s1">(</span><span class="s2">registro de saída, registro de devolução e listagem</span><span class="s1">)</span>
+
+<span class="s0">## </span><span class="s2">Tecnologias Utilizadas</span>
+
+<span class="s0">### </span><span class="s2">Java</span>
+<span class="s2">Linguagem de programação principal do projeto, utilizada para implementar toda a lógica de negócio e estrutura das classes.</span>
+
+<span class="s0">### </span><span class="s2">Java Swing</span>
+<span class="s2">Biblioteca para criação da interface gráfica do usuário </span><span class="s1">(</span><span class="s2">GUI</span><span class="s1">)</span><span class="s2">, proporcionando uma experiência visual intuitiva para o sistema.</span>
+
+<span class="s0">### </span><span class="s2">Gson </span><span class="s1">(</span><span class="s2">Google</span><span class="s1">)</span>
+<span class="s2">Biblioteca para serialização e desserialização de objetos Java para/de formato JSON, utilizada para persistência de dados em arquivos.</span>
+
+<span class="s0">## </span><span class="s2">Estrutura do Projeto</span>
+
+<span class="s2">O projeto foi organizado seguindo uma estrutura padrão de projeto Java</span><span class="s1">:</span>
+
+<span class="s0">```</span>
+<span class="s3">autofacil_java_edition/</span>
+<span class="s3">├── src/main/java/com/autofacil/</span>
+<span class="s3">│   ├── Veiculo.java</span>
+<span class="s3">│   ├── Cliente.java</span>
+<span class="s3">│   ├── Aluguel.java</span>
+<span class="s3">│   ├── GerenciadorArquivos.java</span>
+<span class="s3">│   ├── JanelaPrincipal.java</span>
+<span class="s3">│   ├── PainelCadastroVeiculo.java</span>
+<span class="s3">│   ├── PainelListagemVeiculos.java</span>
+<span class="s3">│   ├── PainelCadastroCliente.java</span>
+<span class="s3">│   ├── PainelListagemCliente.java</span>
+<span class="s3">│   ├── PainelRegistroAluguel.java</span>
+<span class="s3">│   ├── PainelDevolucaoAluguel.java</span>
+<span class="s3">│   └── PainelListagemAlugueis.java</span>
+<span class="s3">├── veiculos.json</span>
+<span class="s3">├── clientes.json</span>
+<span class="s3">└── alugueis.json</span>
+<span class="s0">```</span>
+
+<span class="s0">## </span><span class="s2">Classes Implementadas</span>
+
+<span class="s0">### </span><span class="s2">Classes de Domínio</span>
+
+<span class="s0">#### </span><span class="s2">Veiculo.java</span>
+<span class="s2">Classe que representa um veículo na locadora, contendo</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s2">Atributos</span><span class="s1">: </span><span class="s2">placa, marca, modelo, ano, cor, precoDiaria, status</span>
+<span class="s0">- </span><span class="s2">Métodos</span><span class="s1">: </span><span class="s2">construtores, getters/setters, alugar</span><span class="s1">()</span><span class="s2">, devolver</span><span class="s1">()</span>
+
+<span class="s0">#### </span><span class="s2">Cliente.java</span>
+<span class="s2">Classe que representa um cliente da locadora, contendo</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s2">Atributos</span><span class="s1">: </span><span class="s2">cpf, nome, telefone, email</span>
+<span class="s0">- </span><span class="s2">Métodos</span><span class="s1">: </span><span class="s2">construtores, getters/setters</span>
+
+<span class="s0">#### </span><span class="s2">Aluguel.java</span>
+<span class="s2">Classe que representa um aluguel, contendo</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s2">Atributos</span><span class="s1">: </span><span class="s2">idAluguel, veiculo, cliente, dataSaida, dataPrevistaDevolucao, dataDevolucaoEfetiva, valorTotal, statusAluguel</span>
+<span class="s0">- </span><span class="s2">Métodos</span><span class="s1">: </span><span class="s2">construtores, getters/setters, finalizarAluguel</span><span class="s1">()</span>
+
+<span class="s0">### </span><span class="s2">Classe de Persistência</span>
+
+<span class="s0">#### </span><span class="s2">GerenciadorArquivos.java</span>
+<span class="s2">Classe utilitária responsável pela persistência de dados em arquivos JSON</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s2">Método salvarDados</span><span class="s1">(): </span><span class="s2">serializa listas de objetos para JSON</span>
+<span class="s0">- </span><span class="s2">Método carregarDados</span><span class="s1">(): </span><span class="s2">desserializa dados JSON para objetos Java</span>
+
+<span class="s0">### </span><span class="s2">Classes da Interface Gráfica</span>
+
+<span class="s0">#### </span><span class="s2">JanelaPrincipal.java</span>
+<span class="s2">Janela principal da aplicação que organiza todos os painéis em abas </span><span class="s1">(</span><span class="s2">JTabbedPane</span><span class="s1">)</span><span class="s2">.</span>
+
+<span class="s0">#### </span><span class="s2">Painéis de Veículos</span>
+<span class="s0">- </span><span class="s2">PainelCadastroVeiculo.java</span><span class="s1">: </span><span class="s2">formulário para cadastro de novos veículos</span>
+<span class="s0">- </span><span class="s2">PainelListagemVeiculos.java</span><span class="s1">: </span><span class="s2">tabela para exibição dos veículos cadastrados</span>
+
+<span class="s0">#### </span><span class="s2">Painéis de Clientes</span>
+<span class="s0">- </span><span class="s2">PainelCadastroCliente.java</span><span class="s1">: </span><span class="s2">formulário para cadastro de novos clientes</span>
+<span class="s0">- </span><span class="s2">PainelListagemCliente.java</span><span class="s1">: </span><span class="s2">tabela para exibição dos clientes cadastrados</span>
+
+<span class="s0">#### </span><span class="s2">Painéis de Aluguéis</span>
+<span class="s0">- </span><span class="s2">PainelRegistroAluguel.java</span><span class="s1">: </span><span class="s2">formulário para registro de novos aluguéis</span>
+<span class="s0">- </span><span class="s2">PainelDevolucaoAluguel.java</span><span class="s1">: </span><span class="s2">formulário para registro de devoluções</span>
+<span class="s0">- </span><span class="s2">PainelListagemAlugueis.java</span><span class="s1">: </span><span class="s2">tabela para exibição do histórico de aluguéis</span>
+
+<span class="s0">## </span><span class="s2">Funcionalidades Implementadas</span>
+
+<span class="s0">### </span><span class="s2">Gerenciamento de Veículos</span>
+<span class="s0">- </span><span class="s2">Cadastro de veículos com validação de dados</span>
+<span class="s0">- </span><span class="s2">Listagem de veículos em formato tabular</span>
+<span class="s0">- </span><span class="s2">Controle de status </span><span class="s1">(</span><span class="s2">Disponível/Alugado</span><span class="s1">)</span>
+
+<span class="s0">### </span><span class="s2">Gerenciamento de Clientes</span>
+<span class="s0">- </span><span class="s2">Cadastro de clientes com informações básicas</span>
+<span class="s0">- </span><span class="s2">Listagem de clientes cadastrados</span>
+
+<span class="s0">### </span><span class="s2">Gerenciamento de Aluguéis</span>
+<span class="s0">- </span><span class="s2">Registro de aluguéis com validação de cliente e veículo</span>
+<span class="s0">- </span><span class="s2">Cálculo automático do valor total baseado na duração do aluguel</span>
+<span class="s0">- </span><span class="s2">Registro de devoluções com atualização do status do veículo</span>
+<span class="s0">- </span><span class="s2">Histórico completo de aluguéis</span>
+
+<span class="s0">## </span><span class="s2">Pontos Fortes do Sistema</span>
+
+<span class="s0">1. </span><span class="s1">**</span><span class="s2">Arquitetura Bem Estruturada</span><span class="s1">**: </span><span class="s2">Separação clara entre classes de domínio, persistência e interface gráfica.</span>
+
+<span class="s0">2. </span><span class="s1">**</span><span class="s2">Interface Intuitiva</span><span class="s1">**: </span><span class="s2">Uso de abas para organizar as funcionalidades de forma lógica e acessível.</span>
+
+<span class="s0">3. </span><span class="s1">**</span><span class="s2">Persistência Eficiente</span><span class="s1">**: </span><span class="s2">Utilização do Gson para serialização/desserialização automática de objetos.</span>
+
+<span class="s0">4. </span><span class="s1">**</span><span class="s2">Validações Implementadas</span><span class="s1">**: </span><span class="s2">Verificação de existência de clientes e disponibilidade de veículos antes de registrar aluguéis.</span>
+
+<span class="s0">5. </span><span class="s1">**</span><span class="s2">Feedback ao Usuário</span><span class="s1">**: </span><span class="s2">Mensagens de sucesso e erro utilizando JOptionPane.</span>
+
+<span class="s0">## </span><span class="s2">Desafios Encontrados</span>
+
+<span class="s0">1. </span><span class="s1">**</span><span class="s2">Integração entre Componentes</span><span class="s1">**: </span><span class="s2">Conectar a interface gráfica com a lógica de negócio e persistência de dados.</span>
+
+<span class="s0">2. </span><span class="s1">**</span><span class="s2">Gerenciamento de Estado</span><span class="s1">**: </span><span class="s2">Manter a consistência dos dados entre diferentes painéis da aplicação.</span>
+
+<span class="s0">3. </span><span class="s1">**</span><span class="s2">Tratamento de Exceções</span><span class="s1">**: </span><span class="s2">Implementar tratamento adequado para erros de I/O e parsing de dados.</span>
+
+<span class="s0">## </span><span class="s2">Melhorias Futuras</span>
+
+<span class="s0">1. </span><span class="s1">**</span><span class="s2">Validação de Dados</span><span class="s1">**: </span><span class="s2">Implementar validações mais robustas para CPF, datas e outros campos.</span>
+
+<span class="s0">2. </span><span class="s1">**</span><span class="s2">Busca Avançada</span><span class="s1">**: </span><span class="s2">Adicionar funcionalidades de busca por diferentes critérios.</span>
+
+<span class="s0">3. </span><span class="s1">**</span><span class="s2">Relatórios</span><span class="s1">**: </span><span class="s2">Gerar relatórios de faturamento e estatísticas de uso.</span>
+
+<span class="s0">4. </span><span class="s1">**</span><span class="s2">Backup de Dados</span><span class="s1">**: </span><span class="s2">Implementar sistema de backup automático dos arquivos JSON.</span>
+
+<span class="s0">## </span><span class="s2">Conclusão</span>
+
+<span class="s2">O projeto AutoFácil Java Edition foi desenvolvido com sucesso, atendendo a todos os requisitos especificados. O sistema demonstra a aplicação prática de conceitos fundamentais de programação orientada a objetos, desenvolvimento de interfaces gráficas e persistência de dados. A estrutura modular e bem organizada facilita futuras manutenções e expansões do sistema.</span>
+
+<span class="s2">O projeto serve como uma excelente base para o aprendizado de desenvolvimento de aplicações desktop em Java, proporcionando aos estudantes uma experiência prática com tecnologias amplamente utilizadas na indústria.</span>
+
+</pre>
+</body>
+</html>

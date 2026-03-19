@@ -1,0 +1,662 @@
+[
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:31:25"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:33:15"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 15:33:29"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 15:35:56"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:43:58"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:45:44"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:46:49"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 15:47:38"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 15:54:46"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 15:58:53"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 15:59:59"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:00:46"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:03:50"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:05:30"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:06:45"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:07:38"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:09:03"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:11:03"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:18:51"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:19:15"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:20:31"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:20:45"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:27:42"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:27:55"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:29:57"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:30:08"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:30:57"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:31:10"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:33:30"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-28 16:34:36"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:34:43"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 16:35:10"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 21:03:16"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 21:03:41"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-28 21:05:39"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2025-06-29 03:40:59"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-06-29 03:42:17"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-29 03:43:02"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-06-29 03:46:19"
+  },
+  {
+    "usuario": "visitante",
+    "perfil": "visitante",
+    "dataHora": "2025-07-03 22:11:32"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:19:14"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:22:45"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:25:06"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:26:01"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:27:42"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 22:37:21"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:15:34"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:16:00"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:19:09"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:21:12"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:22:25"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:23:02"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:25:35"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:27:12"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:29:33"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:30:44"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:33:57"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:34:29"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:38:23"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:39:58"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:51:17"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:51:33"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:54:26"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:56:34"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-03 23:59:11"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:02:41"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:05:22"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:08:57"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:13:01"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:13:26"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:15:58"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:16:32"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:20:12"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:20:41"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:21:18"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:44:04"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:46:56"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:47:18"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 00:56:32"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 01:07:36"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 01:13:14"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 01:15:18"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 01:16:43"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-04 01:19:34"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:24:00"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:24:44"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:26:22"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:32:30"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:38:39"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:42:07"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:46:50"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:47:19"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:50:02"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:50:15"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 19:55:59"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:04:30"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:06:38"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:11:31"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:14:13"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:15:03"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-05 20:16:57"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:40:08"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:44:32"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:45:44"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:46:12"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:49:42"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:51:12"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:52:04"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:53:14"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:56:44"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:57:45"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 07:59:09"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:00:53"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:01:45"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:02:58"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:06:23"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:08:21"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:09:17"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:10:20"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 08:10:56"
+  },
+  {
+    "usuario": "a",
+    "perfil": "admin",
+    "dataHora": "2025-07-07 17:44:12"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:37:22"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:39:12"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:40:54"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:43:22"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:46:27"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:47:59"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:49:13"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:51:14"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:56:05"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:57:29"
+  },
+  {
+    "usuario": "admin",
+    "perfil": "admin",
+    "dataHora": "2026-03-19 18:58:46"
+  }
+]

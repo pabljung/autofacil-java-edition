@@ -1,0 +1,27 @@
+[
+  {
+    "username": "admin",
+    "senha": "1234",
+    "perfil": "admin",
+    "email": "",
+    "caminhoFoto": "",
+    "fotoPerfil": ""
+  },
+  {
+    "username": "func",
+    "senha": "1234",
+    "perfil": "funcionario",
+    "email": "",
+    "caminhoFoto": "",
+    "fotoPerfil": ""
+  },
+  {
+    "username": "a",
+    "senha": "a",
+    "perfil" : "admin",
+    "email": "",
+    "caminhoFoto": "",
+    "fotoPerfil": ""
+  }
+
+]

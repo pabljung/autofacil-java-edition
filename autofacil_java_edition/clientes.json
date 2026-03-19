@@ -1,0 +1,26 @@
+[
+  {
+    "cpf": "123.456.789-00",
+    "nome": "João Silva",
+    "telefone": "(11) 99999-1111",
+    "email": "joao.silva@email.com"
+  },
+  {
+    "cpf": "987.654.321-00",
+    "nome": "Maria Santos",
+    "telefone": "(11) 88888-2222",
+    "email": "maria.santos@email.com"
+  },
+  {
+    "cpf": "456.789.123-00",
+    "nome": "Pedro Oliveira",
+    "telefone": "(11) 77777-3333",
+    "email": "pedro.oliveira@email.com"
+  },
+  {
+    "cpf": "88085465000",
+    "nome": "Pablo",
+    "telefone": "51 982346120",
+    "email": "jungvaldespablo@gmail.com"
+  }
+]

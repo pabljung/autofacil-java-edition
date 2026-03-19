@@ -1,0 +1,50 @@
+[
+  {
+    "cpf": "123.456.789-00",
+    "nome": "João Silva",
+    "telefone": "(11) 99999-1111",
+    "email": "joao.silva@email.com"
+  },
+  {
+    "cpf": "987.654.321-00",
+    "nome": "Maria Santos",
+    "telefone": "(11) 88888-2222",
+    "email": "maria.santos@email.com"
+  },
+  {
+    "cpf": "456.789.123-00",
+    "nome": "Pedro Oliveira",
+    "telefone": "(11) 77777-3333",
+    "email": "pedro.oliveira@email.com"
+  },
+  {
+    "cpf": "880.854.650-00",
+    "nome": "Pablo Jung Valdes",
+    "telefone": "(51) 98234-6120",
+    "email": "jungvaldespablo@gmail.com"
+  },
+  {
+    "cpf": "644.366.400-00",
+    "nome": "Simone Jung",
+    "telefone": "(51) 98236-1230",
+    "email": "asdasodkjioa@gmail.com"
+  },
+  {
+    "cpf": "666.146.434-91",
+    "nome": "Ana Souza",
+    "telefone": "(36) 93075-3505",
+    "email": "ana@email.com"
+  },
+  {
+    "cpf": "149.780.377-20",
+    "nome": "Rafael Dias",
+    "telefone": "(70) 93606-7461",
+    "email": "juliana@email.com"
+  },
+  {
+    "cpf": "050.921.460-60",
+    "nome": "Ana Do Caps",
+    "telefone": "(51) 99813-5090",
+    "email": "kappesanalaura@gmail.com"
+  }
+]

@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+README.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">AutoFácil Java Edition - Sistema de Locadora de Veículos</span>
+
+<span class="s0">## </span><span class="s2">Descrição</span>
+<span class="s2">Sistema desktop para gerenciamento de locadora de veículos desenvolvido em Java com interface gráfica Swing, temas modernos FlatLaf e persistência de dados em arquivos JSON.</span>
+
+<span class="s0">## </span><span class="s2">Tecnologias Utilizadas</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Java 17+</span><span class="s1">**: </span><span class="s2">Linguagem principal</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Swing</span><span class="s1">**: </span><span class="s2">Interface gráfica tradicional</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">FlatLaf</span><span class="s1">**: </span><span class="s2">Look and Feel moderno e personalizável </span><span class="s1">(</span><span class="s2">claro e escuro</span><span class="s1">)</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Gson</span><span class="s1">**: </span><span class="s2">Serialização e desserialização JSON</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">SwingX</span><span class="s1">**: </span><span class="s2">Componentes adicionais para UI </span><span class="s1">(</span><span class="s2">ex</span><span class="s1">: </span><span class="s2">DropShadowBorder</span><span class="s1">)</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Maven</span><span class="s1">**: </span><span class="s2">Gerenciamento de dependências e build</span>
+
+<span class="s0">## </span><span class="s2">Estrutura do Projeto</span>
+<span class="s0">```</span>
+<span class="s3">autofacil_java_edition/</span>
+<span class="s3">├── src/main/java/com/autofacil/</span>
+<span class="s3">│ ├── Veiculo.java # Classe de domínio para veículos</span>
+<span class="s3">│ ├── Cliente.java # Classe de domínio para clientes</span>
+<span class="s3">│ ├── Aluguel.java # Classe de domínio para aluguéis</span>
+<span class="s3">│ ├── GerenciadorArquivos.java # Classe para persistência de dados</span>
+<span class="s3">│ ├── JanelaPrincipal.java # Janela principal da aplicação (com abas)</span>
+<span class="s3">│ ├── PainelInicioAdministrador.java # Painel inicial para administrador (dashboard)</span>
+<span class="s3">│ ├── PainelCadastroVeiculo.java # Painel para cadastro de veículos</span>
+<span class="s3">│ ├── PainelListagemVeiculos.java # Painel para listagem de veículos</span>
+<span class="s3">│ ├── PainelCadastroCliente.java # Painel para cadastro de clientes</span>
+<span class="s3">│ ├── PainelListagemCliente.java # Painel para listagem de clientes</span>
+<span class="s3">│ ├── PainelRegistroAluguel.java # Painel para registro de aluguéis</span>
+<span class="s3">│ ├── PainelDevolucaoAluguel.java # Painel para devolução de veículos</span>
+<span class="s3">│ └── PainelListagemAlugueis.java # Painel para listagem de aluguéis</span>
+<span class="s3">├── data/</span>
+<span class="s3">│ ├── veiculos.json # Dados de exemplo de veículos</span>
+<span class="s3">│ ├── clientes.json # Dados de exemplo de clientes</span>
+<span class="s3">│ └── alugueis.json # Dados de exemplo de aluguéis</span>
+<span class="s3">| └── historico_login.json # Histórico de logins (opcional)</span>
+<span class="s3">| └── usuarios.json # Usuários (opcional)</span>
+<span class="s3">├── lib/</span>
+<span class="s3">├── RELATORIO.md # Relatório detalhado do projeto</span>
+<span class="s3">└── README.md # Este arquivo</span>
+
+<span class="s3">## Estrutura do Projeto</span>
+<span class="s0">```</span>
+<span class="s2">autofacil_java_edition/</span>
+<span class="s2">├── src/main/java/com/autofacil/</span>
+<span class="s2">│   ├── Veiculo.java                    # Classe de domínio para veículos</span>
+<span class="s2">│   ├── Cliente.java                    # Classe de domínio para clientes</span>
+<span class="s2">│   ├── Aluguel.java                    # Classe de domínio para aluguéis</span>
+<span class="s2">│   ├── GerenciadorArquivos.java        # Classe para persistência de dados</span>
+<span class="s2">│   ├── JanelaPrincipal.java            # Janela principal da aplicação</span>
+<span class="s2">│   ├── PainelCadastroVeiculo.java      # Painel para cadastro de veículos</span>
+<span class="s2">│   ├── PainelListagemVeiculos.java     # Painel para listagem de veículos</span>
+<span class="s2">│   ├── PainelCadastroCliente.java      # Painel para cadastro de clientes</span>
+<span class="s2">│   ├── PainelListagemCliente.java      # Painel para listagem de clientes</span>
+<span class="s2">│   ├── PainelRegistroAluguel.java      # Painel para registro de aluguéis</span>
+<span class="s2">│   ├── PainelDevolucaoAluguel.java     # Painel para devolução de veículos</span>
+<span class="s2">│   └── PainelListagemAlugueis.java     # Painel para listagem de aluguéis</span>
+<span class="s2">├── veiculos.json                       # Dados de exemplo de veículos</span>
+<span class="s2">├── clientes.json                       # Dados de exemplo de clientes</span>
+<span class="s2">├── alugueis.json                       # Dados de exemplo de aluguéis</span>
+<span class="s2">├── RELATORIO.md                        # Relatório detalhado do projeto</span>
+<span class="s2">└── README.md                           # Este arquivo</span>
+<span class="s0">```</span>
+
+
+<span class="s3">## Funcionalidades</span>
+
+<span class="s3">### Dashboard Inicial (PainelInicioAdministrador)</span>
+<span class="s3">- Visualização resumida dos dados da locadora:</span>
+  <span class="s3">- Total de veículos cadastrados</span>
+  <span class="s3">- Veículos disponíveis</span>
+  <span class="s3">- Veículos alugados</span>
+  <span class="s3">- Total de clientes</span>
+  <span class="s3">- Total de aluguéis registrados</span>
+  <span class="s3">- Aluguéis ativos (em andamento)</span>
+
+<span class="s3">### Gerenciamento de Veículos</span>
+<span class="s3">- Cadastro completo de veículos (placa, marca, modelo, ano, cor, preço diária)</span>
+<span class="s3">- Listagem e controle de status (Disponível / Alugado)</span>
+
+<span class="s3">### Gerenciamento de Clientes</span>
+<span class="s3">- Cadastro e listagem de clientes com dados essenciais (CPF, nome, telefone, email)</span>
+
+<span class="s3">### Gerenciamento de Aluguéis</span>
+<span class="s3">- Registro de aluguéis com validação automática</span>
+<span class="s3">- Registro de devoluções com cálculo automático do valor devido</span>
+<span class="s3">- Listagem do histórico completo de aluguéis</span>
+
+<span class="s3">### Interface e Experiência</span>
+<span class="s3">- Temas claros e escuros via FlatLaf</span>
+<span class="s3">- Feedback visual e mensagens de erro/sucesso</span>
+<span class="s3">- Ícones personalizados e foto de perfil do usuário</span>
+<span class="s3">- Bordas com sombra nos cards usando SwingX DropShadowBorder para visual moderno</span>
+
+<span class="s3">## Como Executar</span>
+
+<span class="s3">### Pré-requisitos</span>
+<span class="s3">- JDK 17 ou superior (recomendado JDK 17 ou 24 para preview features)</span>
+<span class="s3">- Maven instalado</span>
+
+<span class="s3">### Compilação e execução via Maven</span>
+<span class="s3">```bash</span>
+<span class="s3">mvn clean compile</span>
+<span class="s3">mvn exec:java -Dexec.mainClass=&quot;com.autofacil.JanelaPrincipal&quot;</span>
+<span class="s0">```</span>
+<span class="s0">## </span><span class="s2">Dados de Exemplo</span>
+<span class="s2">O projeto inclui arquivos JSON com dados de exemplo</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">veiculos.json</span><span class="s1">**: </span><span class="s2">3 veículos pré-cadastrados</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">clientes.json</span><span class="s1">**: </span><span class="s2">3 clientes pré-cadastrados</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">alugueis.json</span><span class="s1">**: </span><span class="s2">Arquivo vazio para novos aluguéis</span>
+
+<span class="s0">## </span><span class="s2">Arquitetura</span>
+
+<span class="s0">### </span><span class="s2">Classes de Domínio</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Veiculo</span><span class="s1">**: </span><span class="s2">Representa um veículo da locadora</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Cliente</span><span class="s1">**: </span><span class="s2">Representa um cliente da locadora</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Aluguel</span><span class="s1">**: </span><span class="s2">Representa um contrato de aluguel</span>
+
+<span class="s0">### </span><span class="s2">Persistência</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">GerenciadorArquivos</span><span class="s1">**: </span><span class="s2">Gerencia a serialização/desserialização de dados em JSON</span>
+
+<span class="s0">### </span><span class="s2">Interface Gráfica</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">JanelaPrincipal</span><span class="s1">**: </span><span class="s2">Janela principal com abas organizadas</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Painéis</span><span class="s1">**: </span><span class="s2">Cada funcionalidade possui seu próprio painel especializado</span>
+
+<span class="s0">## </span><span class="s2">Características Técnicas</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Encapsulamento</span><span class="s1">**: </span><span class="s2">Atributos privados com getters/setters</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Validações</span><span class="s1">**: </span><span class="s2">Verificação de dados antes de operações críticas</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Feedback</span><span class="s1">**: </span><span class="s2">Mensagens de sucesso/erro para o usuário</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Modularidade</span><span class="s1">**: </span><span class="s2">Código organizado em classes especializadas</span>
+
+<span class="s0">## </span><span class="s2">Autor</span>
+<span class="s2">Desenvolvido como projeto educacional para demonstrar conceitos de</span><span class="s1">:</span>
+<span class="s0">- </span><span class="s2">Programação Orientada a Objetos em Java</span>
+<span class="s0">- </span><span class="s2">Desenvolvimento de interfaces gráficas com Swing</span>
+<span class="s0">- </span><span class="s2">Persistência de dados em formato JSON</span>
+
+<span class="s0">## </span><span class="s2">Licença</span>
+<span class="s2">Este projeto é destinado para fins educacionais.</span>
+</pre>
+</body>
+</html>

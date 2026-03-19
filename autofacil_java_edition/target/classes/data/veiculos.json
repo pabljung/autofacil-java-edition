@@ -1,0 +1,101 @@
+[
+  {
+    "placa": "ABC-1234",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "ano": 2020,
+    "cor": "Branco",
+    "precoDiaria": 80.0,
+    "status": "Alugado"
+  },
+  {
+    "placa": "DEF-5678",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "ano": 2019,
+    "cor": "Preto",
+    "precoDiaria": 75.0,
+    "status": "Alugado"
+  },
+  {
+    "placa": "GHI-9012",
+    "marca": "Volkswagen",
+    "modelo": "Jetta",
+    "ano": 2021,
+    "cor": "Prata",
+    "precoDiaria": 85.0,
+    "status": "Disponível"
+  },
+  {
+    "placa": "AOB-8752",
+    "marca": "renault",
+    "modelo": "clio",
+    "ano": 2000,
+    "cor": "Branco",
+    "precoDiaria": 200.0,
+    "status": "Disponível"
+  },
+  {
+    "placa": "IUO0I1823",
+    "marca": "Wolkswagen",
+    "modelo": "Gol",
+    "ano": 2007,
+    "cor": "Branco",
+    "precoDiaria": 500.0,
+    "status": "Disponível"
+  },
+  {
+    "placa": "ABC-1234",
+    "marca": "Fiat",
+    "modelo": "Jetta",
+    "ano": 2003,
+    "cor": "Azul",
+    "precoDiaria": 1660.0,
+    "status": "Alugado"
+  },
+  {
+    "placa": "JKL-3456",
+    "marca": "Volkswagen",
+    "modelo": "Hb20",
+    "ano": 2011,
+    "cor": "Amarelo",
+    "precoDiaria": 1820.0,
+    "status": "Alugado"
+  },
+  {
+    "placa": "STU-6789",
+    "marca": "Hyundai",
+    "modelo": "Focus",
+    "ano": 2014,
+    "cor": "Azul",
+    "precoDiaria": 1910.0,
+    "status": "Disponível"
+  },
+  {
+    "placa": "ABC-1234",
+    "marca": "Fiat",
+    "modelo": "Uno",
+    "ano": 2010,
+    "cor": "Cinza",
+    "precoDiaria": 86.0,
+    "status": "Alugado"
+  },
+  {
+    "placa": "",
+    "marca": "",
+    "modelo": "",
+    "ano": 2003,
+    "cor": "",
+    "precoDiaria": 0.0,
+    "status": "Disponível"
+  },
+  {
+    "placa": "DEF-5678",
+    "marca": "Renault",
+    "modelo": "Focus",
+    "ano": 2010,
+    "cor": "Preto",
+    "precoDiaria": 141.0,
+    "status": "Disponível"
+  }
+]

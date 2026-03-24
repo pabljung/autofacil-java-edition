@@ -58,31 +58,28 @@ O sistema foi desenvolvido com foco em aprendizado, aplicando conceitos de:
 
 ## 📁 Estrutura do Projeto
 
+```bash
 autofacil_java_edition/
-│
-├── data/ # Arquivos JSON (persistência)
-│
-├── src/main/java/com/autofacil/
-│ ├── Main.java
-│ ├── JanelaPrincipal.java
-│
-│ ├── Cliente.java
-│ ├── Aluguel.java
-│ ├── Dados.java
-│
-│ ├── GerenciadorArquivos.java
-│ ├── EstatisticasUtil.java
-│ ├── DateParserUtil.java
-│
-│ ├── PainelCadastroCliente.java
-│ ├── PainelCadastroVeiculo.java
-│ ├── PainelDevolucaoAluguel.java
-│ ├── PainelEstatisticas.java
-│
-│ └── EditarPerfilDialog.java
-
----
-
+├── data/                         # Arquivos JSON (persistência)
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── autofacil/
+│                   ├── Main.java
+│                   ├── JanelaPrincipal.java
+│                   ├── Cliente.java
+│                   ├── Aluguel.java
+│                   ├── Dados.java
+│                   ├── GerenciadorArquivos.java
+│                   ├── EstatisticasUtil.java
+│                   ├── DateParserUtil.java
+│                   ├── PainelCadastroCliente.java
+│                   ├── PainelCadastroVeiculo.java
+│                   ├── PainelDevolucaoAluguel.java
+│                   ├── PainelEstatisticas.java
+│                   └── EditarPerfilDialog.java
+```
 ## 💾 Persistência de Dados
 
 Os dados são armazenados em arquivos **JSON**, incluindo:
